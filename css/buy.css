@@ -1,0 +1,271 @@
+:root {
+    --font-family: "Jost", sans-serif;
+    --second-family: "Inter", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    min-width: 100%;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 0px;
+}
+
+.hero{
+    background-color: rgb(0, 0, 0);
+    height: 115vh;
+}
+
+.overlay{
+    background: rgba(2, 2, 4, 0.55);
+    height: 100vh;
+    z-index: 1;
+}
+
+.header{
+    padding-left: 5px;
+    padding-top: 35px;
+}
+
+.nav__list {
+    justify-content: space-between;
+    display: flex;
+
+}
+.nav__item-text {
+    column-gap: 35px;
+    display: flex;
+}
+.nav__link {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.nav__link:hover{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #c7a17a;
+}
+
+.nav__item-img {
+    display: flex;
+    column-gap: 30px;
+}
+.ellipse__of-buy{
+    margin-left: 135px;
+    position: absolute;
+}       
+
+.hero__desc {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 50px;
+    
+}
+
+.buycardfull{
+    display: flex;
+}
+
+.hero__title {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 144%;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 54px;
+}
+
+.hero__img-wrap {
+    border-radius: 10px;
+    width: 780px;
+    height: 520px;
+    background: #14141d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bp-price__fully{
+    padding-top: 20px;
+}
+
+.hero__bypanel-wrap{
+    position: absolute;
+    margin-left: 800px;
+}
+
+.hero__buypanel {
+    border-radius: 10px;
+    width: 400px;
+    height: 249px;
+    background: #14141d;
+    position: absolute;
+    bottom: 78px;
+}
+
+.bp-price__fully{
+    margin-top: 5px;
+    margin-left: 30px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.bp-price {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.bp-price-second {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    color: #818181;
+}
+.bp__list {
+    column-gap: 20px;
+    margin-left: 30px;
+    display: flex;
+    margin-bottom: 60px;
+}
+.bp__items {
+}
+.bp__img-first {
+}
+.bp__button {
+    border-radius: 10px;
+    padding: 14px 114px;
+    background: #c7a17a;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.buycardfull 
+{
+    
+}
+.hero__card-img {
+
+}
+.hero__img-first {
+    display: flex;
+    border-radius: 10px;
+    width: 780px;
+    height: 136px;
+    background: #14141d;
+}
+
+.cardmain{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.img__frist-wrap {
+    height: 110px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.cardtitlefull {
+    display: flex;
+
+}
+.card__title {
+    padding-top: 60px;
+    padding-left: 20px;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+}
+.svg__first {
+    display: block;
+    margin-top: 20px;
+    margin-left: 420px;
+    
+}
+
+.footer {
+    background-color: #020204;
+    height: 40vh;
+}
+.footer__list {
+    margin-left: 40px;
+    display: flex;
+}
+.footer__text-child {
+    margin-left: 390px;
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer__text-child:nth-last-child(){
+    margin-bottom: 0px;
+}
+
+.last{
+}
